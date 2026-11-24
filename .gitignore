@@ -1,0 +1,19 @@
+# Credentials: never commit
+.env
+*.env
+!.env.example
+secrets/*
+!secrets/.gitkeep
+
+# Backups and logs
+backups/
+*.log
+*.sql.gz
+*.tar.gz
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
